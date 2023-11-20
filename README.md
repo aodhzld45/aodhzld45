@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 ## Rect <a id="rect">
-![rect](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=%20%20Hello,World🐶%20%20&fontAlign=30&fontSize=30&textBg=true&desc=I'M%20%HyunSeok%20Seo%20%20%&descAlign=60&descAlignY=50)
+![rect](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=%20%20Hello,World🐶%20%20&fontAlign=30&fontSize=50&textBg=true&desc=I'M%20%HyunSeok%20Seo%20%20%&descAlign=60&descAlignY=50)
 
 
 
