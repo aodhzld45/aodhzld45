@@ -1,4 +1,4 @@
-## Introduce <a id="rect">
+ㅂ## Introduce <a id="rect">
 ![rect](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=%20%20Hello,World🐶%20%20&fontAlign=30&fontSize=30&textBg=true&desc=I'M%20%HyunSeok%20Seo%20%20%&descAlign=60&descAlignY=50)
 
 <h3 align="center">🛠️ Tech Stack 🛠️</h3>
@@ -16,3 +16,5 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>&nbsp 
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/></a>&nbsp 
 </p>
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=aodhzld45&show_icons=true&theme=dark&hide_border=true)
