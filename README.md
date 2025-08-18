@@ -18,3 +18,5 @@
 </p>
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=aodhzld45&show_icons=true&theme=dark&hide_border=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aodhzld45&layout=compact&theme=dark&hide_border=true)
