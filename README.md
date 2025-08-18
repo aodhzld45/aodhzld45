@@ -1,4 +1,4 @@
-ㅂ## Introduce <a id="rect">
+## Introduce <a id="rect">
 ![rect](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=%20%20Hello,World🐶%20%20&fontAlign=30&fontSize=30&textBg=true&desc=I'M%20%HyunSeok%20Seo%20%20%&descAlign=60&descAlignY=50)
 
 <h3 align="center">🛠️ Tech Stack 🛠️</h3>
