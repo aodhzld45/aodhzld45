@@ -15,8 +15,7 @@
 <br>  
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>&nbsp 
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/></a>&nbsp 
-</p>
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=aodhzld45&show_icons=true&theme=dark&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=aodhzld45&theme=dark&hide_border=true)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aodhzld45&layout=compact&theme=dark&hide_border=true)
