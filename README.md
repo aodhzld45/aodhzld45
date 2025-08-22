@@ -19,3 +19,9 @@
 ![GitHub Streak](https://streak-stats.demolab.com/?user=aodhzld45&theme=dark&hide_border=true)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aodhzld45&layout=compact&theme=dark&hide_border=true)
+
+![Profile views](https://komarev.com/ghpvc/?username=aodhzld45&color=blue&style=flat-square)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=aodhzld45&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
+
