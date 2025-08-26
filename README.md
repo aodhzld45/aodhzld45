@@ -21,7 +21,3 @@
 
 <!-- GitHub Streak -->
 ![GitHub Streak](https://streak-stats.demolab.com?user=aodhzld45&theme=dark&hide_border=true&cache=1800)
-
-
-<!-- Trophy -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=aodhzld45&theme=onedark&no-frame=true&no-bg=true&row=1&column=7&margin-w=10&margin-h=10)](https://github.com/ryo-ma/github-profile-trophy)
