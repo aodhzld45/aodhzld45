@@ -22,5 +22,6 @@
 <!-- GitHub Streak -->
 ![GitHub Streak](https://streak-stats.demolab.com?user=aodhzld45&theme=dark&hide_border=true&cache=1800)
 
+[![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white)](mailto:prking94@naver.com)
 
-![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:prking94@naver.com
+
