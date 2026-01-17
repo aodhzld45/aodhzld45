@@ -17,10 +17,9 @@
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/>&nbsp
 </p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aodhzld45&layout=compact&theme=dark&hide_border=true&cache_seconds=1800)
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aodhzld45&layout=compact&theme=dark&hide_border=true&cache_seconds=21600)
 <!-- GitHub Streak -->
-![GitHub Streak](https://streak-stats.demolab.com?user=aodhzld45&theme=dark&hide_border=true&cache=1800)
+![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=aodhzld45&theme=dark&hide_border=true)
 
 [![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white)](mailto:prking94@naver.com)
 
