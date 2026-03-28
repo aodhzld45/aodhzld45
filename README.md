@@ -252,3 +252,7 @@ HSBS는 단순한 기능 구현 프로젝트가 아닙니다.
 
 > 저는 “기능을 구현하는 개발자”가 아니라  
 > **확장 가능한 서비스 구조를 설계하는 개발자**를 지향합니다.
+
+## 🐍 Contribution Snake
+
+![snake](https://raw.githubusercontent.com/aodhzld45/aodhzld45/output/snake.svg)
