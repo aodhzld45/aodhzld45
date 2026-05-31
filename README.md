@@ -41,7 +41,7 @@
 # 🤖 HR Copilot — Featured AI Project
 
 > LangGraph + Hybrid RAG 기반 HR 업무 자동화 서비스  
-> 팀 Bamti95 (4인) · 청년취업사관학교 도봉캠퍼스 · 2025.12 ~ 2026.05
+> 팀 Bamti95 (4인)
 
 지원자 문서·채용공고를 분석해 **면접 질문 생성**과 **채용공고 컴플라이언스 검증**을 자동화한 LLM 기반 서비스
 
@@ -293,8 +293,6 @@ HSBS는 단순 CMS가 아니라
 ---
 
 # 🧠 Engineering Philosophy
-
-HSBS는 단순한 기능 구현 프로젝트가 아닙니다.
 
 저는 다음과 같은 기준으로 서비스를 설계합니다.
 
