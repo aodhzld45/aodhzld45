@@ -18,8 +18,12 @@
   <br>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>&nbsp
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>&nbsp
+  <br>
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>&nbsp
-  <img src="https://img.shields.io/badge/Vector DB-000000?style=flat-square&logo=databricks&logoColor=white"/>&nbsp
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>&nbsp
+  <img src="https://img.shields.io/badge/RAG Hybrid-000000?style=flat-square&logo=databricks&logoColor=white"/>&nbsp
+  <img src="https://img.shields.io/badge/LangSmith-FF6B35?style=flat-square&logo=langchain&logoColor=white"/>&nbsp
+  <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>&nbsp
   <br>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>&nbsp
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/>&nbsp
@@ -31,6 +35,54 @@
 ![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=aodhzld45&theme=dark&hide_border=true)
 
 [![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white)](mailto:prking94@naver.com)
+
+---
+
+# 🤖 HR Copilot — Featured AI Project
+
+> LangGraph + Hybrid RAG 기반 HR 업무 자동화 서비스  
+> 팀 Bamti95 (4인) · 청년취업사관학교 도봉캠퍼스 · 2025.12 ~ 2026.05
+
+지원자 문서·채용공고를 분석해 **면접 질문 생성**과 **채용공고 컴플라이언스 검증**을 자동화한 LLM 기반 서비스
+
+## 📊 성과
+
+| 항목 | Before | After |
+|------|--------|-------|
+| 면접 질문 품질 (100점 루브릭) | 78.6점 | **91.8점** |
+| 채용공고 처리 시간 | 8분 | **1~2분** |
+| High-risk Recall | 66.7% | **100%** |
+| 위험도 정확도 | 38% | **94%** |
+
+## ⚙️ AI 파이프라인 흐름
+
+```
+문서 입력
+    │
+    ▼
+[LangGraph Workflow — 9 nodes]
+build_state → analyzer → questioner → selector_lite → predictor
+                                                           │
+                                    driller → reviewer → scorer → selector
+                                                                      │
+                                                              final_formatter
+    │
+    ▼
+[AiJob Queue] ── DB 기반 상태추적 / 취소 / Polling 복구
+    │
+    ▼
+[OpenAI API] + [Hybrid RAG]
+BGE-M3(의미) + BM25(키워드) → BGE-reranker-v2-m3 재정렬
+    │
+    ▼
+[LangSmith] — 노드별 토큰·비용·레이턴시 추적
+```
+
+## 🔑 핵심 기술 의사결정
+
+- **Hybrid RAG 선택** — 법령 조항 번호 탐지(BM25) + 문맥 의미 검색(BGE-M3) 병행 필요
+- **AiJob Queue 직접 설계** — FastAPI BackgroundTasks 취소 불가 한계 → DB 레코드 기반 대체
+- **selector_lite 중간 삽입** — 10개 전체 LLM 처리 시 비용 5배 → 1차 5개 선별로 절반 이상 절감
 
 ---
 
@@ -65,9 +117,11 @@ HSBS는 실제 운영을 고려한 구조로 설계된
 - Job Queue 기반 비동기 처리
 
 ## 🔹 AI Server (분리 아키텍처)
-- FastAPI 기반 독립 서버
-- OpenAI API 연동
-- RAG 기반 문서 질의응답
+- FastAPI 기반 독립 서버 (Spring Boot와 완전 분리)
+- OpenAI API 연동 + LangGraph 9-node 워크플로우
+- **RAG 파이프라인** — BGE-M3(의미검색) + BM25(키워드) 동시 검색 → Reranker 재정렬
+- AiJob Queue — DB 기반 상태 추적 + 취소 · Polling 복구 구조
+- LangSmith 기반 노드별 토큰/비용/레이턴시 추적
 - Reverse Proxy (Apache) 구성
 
 ## 🔹 Database
@@ -250,5 +304,5 @@ HSBS는 단순한 기능 구현 프로젝트가 아닙니다.
 - 운영을 고려하지 않은 설계는 하지 않습니다
 - 권한·로그·통계는 기본 구성요소로 포함합니다
 
-> 저는 “기능을 구현하는 개발자”가 아니라  
+> 저는 "기능을 구현하는 개발자"가 아니라  
 > **확장 가능한 서비스 구조를 설계하는 개발자**를 지향합니다.
